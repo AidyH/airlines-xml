@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airlines>
+    <airline id="1">
+        <name>British Airways</name>
+        <code>BA</code>
+        <callsign>SPEEDBIRD</callsign>
+        <alliance memeber="true">Oneworld</alliance>
+        <parent-company>International Airlines Group</parent-company>
+        <hub>London Heathrow Airport</hub>
+        <frequent-flyer>Executive Club</frequent-flyer>
+        <aircraft>277</aircraft>
+        <groups/>
+        <projects/>
+        <snippets/>
+        <added>
+            <date>2014/4/7</date>
+            <time>17:21</time>
+        </added>
+        <updated>
+            <date>2014/4/7</date>
+            <time>17:21</time>
+        </updated>
+    </airline>
+    <airline id="2">
+        <name>Virgin Atlantic</name>
+        <code>VS</code>
+        <callsign>VIRGIN</callsign>
+        <alliance memeber="false"/>
+        <parent-company>Virgin Atlantic Airways Ltd</parent-company>
+        <hub>London Heathrow Airport</hub>
+        <frequent-flyer>Flying Club</frequent-flyer>
+        <aircraft>39</aircraft>
+        <groups/>
+        <projects/>
+        <snippets/>
+        <added>
+            <date>2014/4/7</date>
+            <time>17:21</time>
+        </added>
+        <updated>
+            <date>2014/4/7</date>
+            <time>17:21</time>
+        </updated>
+    </airline>
+</airlines>

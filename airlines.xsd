@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://co-project.lboro.ac.uk/users/lsah2/coursework/xml-airlines">
+
+    <xs:element name="airlines">
+        <xs:complexType >
+            <xs:element name="airline" >
+                <xs:complexType name="primary_key">
+                <xs:sequence>
+                    <xs:attribute name="id" type="xs:positiveInteger" />
+                    <xs:element name="name" type="xs:string" />
+                    <xs:element name="code" type="xs:string" />
+                    <xs:element name="callsign" type="xs:string" />
+                    <xs:element name="alliance" type="xs:string" />
+                    <xs:element name="parent-company" type="xs:string" />
+                    <xs:element name="hub" type="xs:string" />
+                    <xs:element name="frequent-flyer" type="xs:string" />
+                    <xs:element name="aircraft" type="xs:positiveInteger" />
+                </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
